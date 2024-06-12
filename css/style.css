@@ -15,7 +15,7 @@ header{
     color: cornsilk;
     
 }
-nav{
+ul{
     border-bottom: 100xp;
     display: flex;
     justify-content: space-around;
@@ -59,8 +59,64 @@ border-radius: 10px;
     height: 550px;
     border-radius: 10px;
 }
+#historiaInter{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
+#decadaInter{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
+#elencoInter{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
+#fotojogos{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
+#mercadoDaBola{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+} 
+#timeInter{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
+#beiraRio{
+    width: 785px;
+    height: 450px;
+    border-radius: 10px;
+}
 footer{
     background-color: red;
-    border:2px solid #000000;
-    
+    border:2px solid #000000;    
+}
+#logoInter{
+align-items:right;
+}
+p{
+color: white;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h6{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#section5{
+    text-align: center;
 }
