@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color:rgb(255, 255, 255);
 
@@ -6,13 +10,14 @@ body{
 
 header{
     border:4px solid #000000;
-    width: 95vw;
-    height:40px;
+    width: 100%;
+    height:100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color:rgb(255, 0, 0);
     color: cornsilk;
+    padding: 10px;
     
 }
 ul{
@@ -22,16 +27,24 @@ ul{
     margin-left: 20px;
     float: left;
     gap:20px;
+    padding: 10px;
+    list-style: none;
 
 }
-li, a{
+li a{
     list-style:none ;
-     text-decoration: none;
-    color:white;
+    text-decoration: none;
+   color:white;
+   background-color: red;
    
 }
-li:hover{
-    background-color: greenyellow;
+
+ul li a:hover{
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+    
 }
 body{
     background-color: rgb(54, 54, 54);
@@ -41,17 +54,84 @@ body{
 h1{
    text-align: center;
    color: azure; 
+   font-family: serif;
 }
 
 img{
     height: auto;
-    max-width: 1310px;  
+    width: 100%;  
     border-radius: 10px;
 }
-#historia{
+#section2{
+    padding: 0px;
+   margin: 0px;
+   border: 3px solid black;
+}
+
+#historiaimg{
 width: 720px;
 height: 500px;
 border-radius: 10px;
+
+}
+.historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  0;
+    margin: 5%;
+
+
+}
+.historia p{
+  padding:  2rem;
+  margin: 0.5rem 5.5rem;
+
+}
+.noticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  0;
+    margin: 5%;
+
+
+}
+.noticias p{
+  padding:  2rem;
+  margin: 0.5rem 5.5rem;
+
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  0;
+    margin: 5%;
+
+
+}
+.titulos p{
+  padding:  2rem;
+  margin: 0.5rem 5.5rem;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  0;
+    margin: 5%;
+
+
+}
+.home p{
+  padding:  2rem;
+  margin: 0.5rem 5.5rem;
 
 }
 #noticias{
@@ -59,10 +139,12 @@ border-radius: 10px;
     height: 550px;
     border-radius: 10px;
 }
+
 #historiaInter{
     width: 785px;
     height: 450px;
     border-radius: 10px;
+
 }
 #decadaInter{
     width: 785px;
@@ -74,7 +156,7 @@ border-radius: 10px;
     height: 450px;
     border-radius: 10px;
 }
-#fotojogos{
+#fotoJogos{
     width: 785px;
     height: 450px;
     border-radius: 10px;
@@ -101,19 +183,40 @@ border-radius: 10px;
         max-width: 100%;         
         max-height: 100%; 
     }
-    #sobre{
-        display:flex;
-        justify-content: center; 
-        align-items: center;     
-        height: 100vh;           
-        max-width: 100%;         
-        max-height: 100%;   
+    .sobre{
+        display: flex;
+            justify-content: center;
+            align-items: center;
     }
+    .sobre img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding:  0;
+            margin: 5%;
+        width: 400px;
+        height: 600px;
+        
+        }
+
+    #logoInter{
+        width: 150px;
+        height: 100px;
+    }
+    #titulos{
+        width: 720px;
+    height: 450px;
+    border-radius: 10px;
+    }
+    
       
 footer{
     background-color: red;
-    border:2px solid #000000;    
+    border:2px solid #000000;
+       
 }
+
 #logoInter{
 align-items:right;
 }
